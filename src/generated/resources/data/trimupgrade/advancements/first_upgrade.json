@@ -1,0 +1,37 @@
+{
+  "parent": "trimupgrade:craft_upgrade_table",
+  "criteria": {
+    "upgraded_once": {
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Trim:{TrimUpgradeLevel:1}}",
+            "tag": "minecraft:trimmable_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.trimupgrade.first_upgrade.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "trimupgrade:upgrade_gem_i"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.trimupgrade.first_upgrade.title"
+    }
+  },
+  "requirements": [
+    [
+      "upgraded_once"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

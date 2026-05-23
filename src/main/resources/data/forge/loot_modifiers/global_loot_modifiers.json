@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "entries": [
+    "trimupgrade:add_silence_trim_from_warden",
+    "trimupgrade:remove_silence_trim_from_ancient_city",
+    "trimupgrade:remove_silence_trim_from_ancient_city_ice_box"
+  ]
+}
+

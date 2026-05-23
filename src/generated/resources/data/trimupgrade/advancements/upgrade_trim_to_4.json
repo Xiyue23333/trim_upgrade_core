@@ -1,0 +1,40 @@
+{
+  "parent": "trimupgrade:first_upgrade",
+  "criteria": {
+    "has_lvl4_trim_armor": {
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Trim:{TrimUpgradeLevel:4}}",
+            "tag": "minecraft:trimmable_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.trimupgrade.upgrade_trim_to_4.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "trimupgrade:upgrade_gem_iv"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.trimupgrade.upgrade_trim_to_4.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_lvl4_trim_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

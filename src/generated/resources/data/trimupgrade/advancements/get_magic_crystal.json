@@ -1,0 +1,38 @@
+{
+  "parent": "trimupgrade:root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trimupgrade:magic_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.trimupgrade.get_magic_crystal.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "trimupgrade:magic_crystal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.trimupgrade.get_magic_crystal.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

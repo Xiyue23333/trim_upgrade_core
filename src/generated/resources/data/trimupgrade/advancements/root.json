@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "tick": {
+      "conditions": {},
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancement.trimupgrade.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "trimupgrade:trim_upgrade_table"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.trimupgrade.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

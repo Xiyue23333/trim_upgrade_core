@@ -1,0 +1,7 @@
+// 1.20.1	2026-05-21T05:12:17.793458	Advancements
+d4b979f1962f318915f7ccd78427d4443c86895f data/trimupgrade/advancements/craft_upgrade_table.json
+9f07a2e8da56b0005b0bcc660691245f837e4e43 data/trimupgrade/advancements/first_upgrade.json
+3279fd5c1f7625b0cda3f1beea39fe94085ecba8 data/trimupgrade/advancements/get_magic_crystal.json
+9c2fd4650b1f3847496245c68f3fa2d9b6f529f3 data/trimupgrade/advancements/get_miracle_crystal.json
+1ae29868441a896c8bd5fd47f795d6d63e37aa34 data/trimupgrade/advancements/root.json
+a92f494cbc20dded6c64d4bd33297885a6df1f97 data/trimupgrade/advancements/upgrade_trim_to_4.json

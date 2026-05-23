@@ -1,0 +1,15 @@
+{
+  "type": "trimupgrade:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/warden"
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    }
+  ],
+  "item": "minecraft:silence_armor_trim_smithing_template",
+  "count": 1
+}
+

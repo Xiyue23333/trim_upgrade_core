@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "trimupgrade:upgrade_gem_iii"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_upgrade_gem_ii": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trimupgrade:upgrade_gem_ii"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_upgrade_gem_ii",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "trimupgrade:upgrade_gem_iii"
+    ]
+  },
+  "sends_telemetry_event": false
+}

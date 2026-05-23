@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "trimupgrade:block/trim_upgrade_table"
+    }
+  }
+}

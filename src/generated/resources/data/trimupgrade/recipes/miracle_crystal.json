@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "U": {
+      "item": "trimupgrade:magic_crystal"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Y": {
+      "item": "minecraft:diamond"
+    },
+    "Z": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    " # ",
+    "XUY",
+    " Z "
+  ],
+  "result": {
+    "item": "trimupgrade:miracle_crystal"
+  },
+  "show_notification": true
+}

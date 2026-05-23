@@ -1,0 +1,38 @@
+{
+  "parent": "trimupgrade:get_miracle_crystal",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "trimupgrade:trim_upgrade_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.trimupgrade.craft_upgrade_table.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "trimupgrade:trim_upgrade_table"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.trimupgrade.craft_upgrade_table.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

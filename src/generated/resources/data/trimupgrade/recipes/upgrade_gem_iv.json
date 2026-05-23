@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "C": {
+      "item": "trimupgrade:magic_crystal"
+    },
+    "X": {
+      "item": "trimupgrade:upgrade_gem_iii"
+    }
+  },
+  "pattern": [
+    " # ",
+    "CXC",
+    " # "
+  ],
+  "result": {
+    "count": 2,
+    "item": "trimupgrade:upgrade_gem_iv"
+  },
+  "show_notification": true
+}

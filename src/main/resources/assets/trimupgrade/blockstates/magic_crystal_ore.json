@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "trimupgrade:block/magic_crystal_ore"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Y": {
+      "item": "trimupgrade:miracle_crystal"
+    }
+  },
+  "pattern": [
+    " Y ",
+    "X#X",
+    "###"
+  ],
+  "result": {
+    "item": "trimupgrade:trim_upgrade_table"
+  },
+  "show_notification": true
+}
